@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg-1: #0a0a0f;
+  --color-bg-2: #14141c;
+  --color-accent: #A78BFA;
+  --color-muted-text: #9CA3AF;
+  --color-text: #E5E7EB;
+  --color-white: #FFFFFF;
+  --color-glass-bg: rgba(255,255,255,0.04);
+  
+  --gradient-primary: linear-gradient(90deg, #7C3AED 0%, #4F46E5 100%);
+  
+  --shadow-card: 0 8px 30px rgba(2,6,23,0.6);
+  --shadow-glow: 0 8px 40px rgba(124,58,237,0.12);
+  --shadow-focus: 0 0 0 4px rgba(124,58,237,0.08);
+  
+  --font-family-sans: Geist, Inter, system-ui, -apple-system, sans-serif;
+  
+  --font-size-h1: 36px;
+  --line-height-h1: 1.2;
+  --font-size-h2: 28px;
+  --line-height-h2: 1.2;
+  --font-size-h3: 20px;
+  --line-height-h3: 1.2;
+  --font-size-body: 16px;
+  --line-height-body: 1.5;
+  --font-size-small: 13px;
+  --line-height-small: 1.5;
+  
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 40px;
+  --spacing-xxl: 64px;
+  
+  --radius-card: 18px;
+  --radius-button: 12px;
+  
+  --animate-fast: transform 180ms cubic-bezier(.2,.9,.2,1);
+  --animate-medium: transform 320ms cubic-bezier(.2,.9,.2,1);
+  --animate-slow: transform 520ms cubic-bezier(.2,.9,.2,1);
+}
+
+body {
+  background: var(--color-bg-1);
+  color: var(--color-text);
+  font-family: var(--font-family-sans);
+  min-height: 100vh;
+}
+
+.bg-primary-gradient {
+  background: var(--gradient-primary);
+}
+
+.shadow-card {
+  box-shadow: var(--shadow-card);
+}
+
+.shadow-glow {
+  box-shadow: var(--shadow-glow);
+}
+
+.shadow-focus {
+  box-shadow: var(--shadow-focus);
+}
+
+.text-h1 {
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
+}
+
+.text-h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+}
+
+.text-h3 {
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+}
+
+.text-body {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+.text-small {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.rounded-card {
+  border-radius: var(--radius-card);
+}
+
+.rounded-button {
+  border-radius: var(--radius-button);
+}
+
+.backdrop-blur-glass {
+  backdrop-filter: blur(12px);
+}
