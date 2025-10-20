@@ -1,12 +1,15 @@
 # Career-Copilot
 Career-Copilot is a modern web application designed to help users generate resumes, cover letters, and match job descriptions with their skills. Built with Next.js and TypeScript, it provides a seamless and interactive experience for job seekers.
 
+
+
 ## Features
 - Resume Analyzer
 - Cover Letter Generator
 - Job Match Scorer
-- Modern UI with animated backgrounds
+- Modern UI with animated backgrounds   
 - Easy file uploads and result visualization
+
 
 ## Getting Started
 1. Clone the repository:
