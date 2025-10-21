@@ -12,6 +12,7 @@ Career-Copilot is a modern web application designed to help users generate resum
 
 
 
+
 ## Getting Started
 1. Clone the repository:
 	```sh
