@@ -6,7 +6,7 @@ Career-Copilot is a modern web application designed to help users generate resum
 ## Features
 - Resume Analyzer
 - Cover Letter Generator
-- Job Match Scorer
+
  
 
 
